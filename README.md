@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # m241_Angular_Documentation
 
-Project by Yohann, Laurin, Mike and Devin using the **Angular.js framework**.
+Project by Yohann, [Laurin](https://github.com/bambuk-Java), [Mike](https://github.com/mikeezvz) and [Devin](https://github.com/De27vin) using the **Angular.js framework**.
 
 ## Features
 - sth1
@@ -14,10 +13,11 @@ You have to have nodejs and npm installed.
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-## Packages used for this project
+## Packages/Commands
 
+Start the server, runs on localhost:4200
 ```bash
-command1
+ng serve
 ```
 
 ```bash
@@ -37,34 +37,19 @@ Create a project
 ng new my-angular-app
 ```
 
+Chosing the stylesheet
+
+![angular-installation](https://github.com/user-attachments/assets/30bcf1ac-d4dc-47a3-b6fd-08dfe3cbeaef)
 
 
-=======
-# AngularProject
+We chose standard CSS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+![angular-installation2](https://github.com/user-attachments/assets/89b05318-8bb3-4376-a4ef-a8ef8a2b7d52)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Create a new component
+```bash
+ng generate component component-name
+```
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
->>>>>>> master
+For further help click [HERE](https://angular.dev/tools/cli).
