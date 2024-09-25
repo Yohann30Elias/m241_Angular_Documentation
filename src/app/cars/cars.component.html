@@ -1,0 +1,10 @@
+<h1 class="title">Available Cars</h1>
+
+<div class="cars-array" *ngFor="let car of cars">
+    <ul>
+        <a class="">{{ car.brand }}</a>
+        <a>Model: {{ car.model }}</a>
+        <a>Production timespan: {{ car.productionTime }}</a>
+        <img [src]="car.image">
+    </ul>
+</div>

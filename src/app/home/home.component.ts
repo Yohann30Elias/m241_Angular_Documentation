@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,20 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
-export class HomeComponent {
+
+export class HomeComponent implements OnInit {
+  title = 'Homepage';
+
+  constructor(private router: Router) {}
+
+  ngOnInit() {}
+
+  clickhandler() {
+    const confirm = prompt('Are you sure you want to see the cars?')
+
+    if (confirm === 'yes') {
+      this.router.navigate(['cars']); 
+    }
+  }
 
 }
