@@ -18,5 +18,10 @@ export class CarsComponent {
     { brand: "Toyota", model: "Supra (4th gen.)", productionTime: "1993-2002" },
   ];
 
+  car_images = [
+    { image: "assets/bmw-e36-img.png" }, 
+    { image: "assets/honda-crx-img.png" },
+  ];
+
   constructor() {}
 }

@@ -5,3 +5,7 @@
 .cars-array {
     text-align: center;
 }
+
+.car-image {
+    width: 100px;
+}
