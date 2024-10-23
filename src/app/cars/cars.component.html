@@ -3,13 +3,8 @@
 <div class="cars-array" *ngFor="let car of cars">
     <ul>
         <a class=""><strong>{{ car.brand }} </strong></a>
-        <a>Model: {{ car.model }}</a>
-        <a>Production timespan: {{ car.productionTime }}</a>
+        <a>Model: {{ car.model }}</a><br>
+        <a>Production timespan: {{ car.productionTime }}</a><br>
+        <a *ngIf="car.image"><img class="car-image" [src]="car.image"></a>
     </ul>
 </div>
-<div class="car-images-array" *ngFor="let car_image of car_images">
-    <ul>
-        <img class="car-image" [src]="car_image.image">
-    </ul>
-</div>
-

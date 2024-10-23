@@ -16,8 +16,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {}
 
-  clickhandler() {
-    const confirm = prompt('Are you sure you want to see the cars?')
+  clickHandler() {
+    const confirm = prompt('Are you sure you want to see the cars? "yes" to confirm!')
 
     if (confirm === 'yes') {
       this.router.navigate(['cars']); 
